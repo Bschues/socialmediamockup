@@ -46,4 +46,18 @@ nav > a {
     border-right: grey 2px solid;
     padding-top: 5px;
 }
+#columns {
+    column-count: 2; 
+    float: left;
+    margin-right: 10px;
+    border: solid black 2px;
 
+}
+#personalinformation {
+    width: 325px;
+    background-color: aquamarine;
+}
+#activityfeed {
+    width: 512px;
+    background-color: blueviolet;
+}
