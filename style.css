@@ -2,7 +2,7 @@ body {
     background-color: rgb(211, 211, 211);
     width: 850px;
     margin: 0 auto;
-
+    height: 2000px;
 }
 header {
     background-color: rgb(87, 87, 247);
@@ -21,7 +21,6 @@ nav > a {
     left: 1%
 }
 #profilepicture {
-    
     height: 100px;
     width: 100px;
     background-color: rgb(234, 238, 112);
@@ -36,7 +35,6 @@ nav > a {
     right: 10px;
     margin-left: 74%;
 }
-
 #follow-button {margin-left: 10px;
 }
 #name {
@@ -47,17 +45,20 @@ nav > a {
     padding-top: 5px;
 }
 #columns {
-    column-count: 2; 
-    float: left;
-    margin-right: 10px;
-    border: solid black 2px;
-
+    width: 850px;
+    min-height: 200px;
 }
-#personalinformation {
-    width: 325px;
+#sidebar {
+    width: 300px;
     background-color: aquamarine;
+    float: left;
+    min-height: 200px;
+    padding: 10px;
 }
 #activityfeed {
     width: 512px;
     background-color: blueviolet;
+    min-height: 200px;
+    margin-left: 340px;
 }
+
