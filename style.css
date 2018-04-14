@@ -1,17 +1,49 @@
 body {
-    background-color: grey;
+    background-color: rgb(211, 211, 211);
     width: 850px;
     margin: 0 auto;
 
 }
 header {
-    background-color: green;
+    background-color: rgb(87, 87, 247);
     height: 200px;
 }
 nav {
     background-color: white;
-    padding: 10px;
+    padding-left: 5%;
 }
 nav > a {
     margin: 10px;
 }
+#info {
+    position: relative;
+    top: 70%;
+    left: 1%
+}
+#profilepicture {
+    
+    height: 100px;
+    width: 100px;
+    background-color: rgb(234, 238, 112);
+    float: left;
+    margin-top: 110px;
+    margin-left: 10px;
+    
+}
+#extentions {
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    margin-left: 74%;
+}
+
+#follow-button {margin-left: 10px;
+}
+#name {
+    font-weight: bold;
+}
+#about {
+    border-right: grey 2px solid;
+    padding-top: 5px;
+}
+
